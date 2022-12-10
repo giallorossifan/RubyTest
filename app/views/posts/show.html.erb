@@ -2,3 +2,18 @@
 
 <h2> <%= @post.title %> </h2>
 <h3> <%= @post.body %> </h3>
+<hr>
+<%= link_to "Edit", edit_post_path(@post), :class => 'btn btn-dark'%>
+
+<%= link_to "Delete", post_path(@post),
+                      method: :delete,
+                      data: {confirm: 'Are you sure?'},
+                      :class => 'btn btn-danger'%>
+
+
+<hr>
+
+
+
+<%= render 'comments/comments' %>
+<%= render 'comments/form' %>
