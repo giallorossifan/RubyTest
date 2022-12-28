@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #added this to show landing page
 gem "bootstrap-sass"
 gem "font-awesome-rails"
+gem 'jquery-rails'
+gem 'popper_js', '~> 2.11.5'
