@@ -6,16 +6,19 @@
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
+import "@hotwired/turbo-rails"
 import "bootstrap"
 import "channels"
 import "jquery"
-import "popper.js"
+import "popper.js/core"
 import "custom.js"
 import "jquery.js"
 import "jquery.singlePageNav.min.js"
 import "wow.min.js"
 import "bootstrap.min.js"
-
+import "../stylesheets/application"
+import "@fortawesome/fontawesome-free/css/all"
+import "/custom"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

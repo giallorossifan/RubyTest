@@ -1,5 +1,8 @@
+
+
 /* HTML document is loaded. DOM is ready.
 -------------------------------------------*/
+
 $(function(){
 
     /* start typed element */
@@ -13,6 +16,8 @@ $(function(){
         loop: true,
         loopCount: true,
     });
+
+
     /* end typed element */
 
     /* Smooth scroll and Scroll spy (https://github.com/ChrisWojcik/single-page-nav)

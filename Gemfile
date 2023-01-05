@@ -60,3 +60,7 @@ gem "bootstrap-sass"
 gem "font-awesome-rails"
 gem 'jquery-rails'
 gem 'popper_js', '~> 2.11.5'
+
+gem "turbo-rails", "~> 1.3"
+
+gem "stimulus-rails", "~> 1.2"
