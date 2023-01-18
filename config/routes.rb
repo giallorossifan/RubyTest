@@ -11,5 +11,10 @@ get '/contact', to:'pages#contact', as: :contact
 
 
 
+get "sign_up", to: "registrations#new"
+post "sign_up", to: "registrations#create"
+
+
+
 
 end
