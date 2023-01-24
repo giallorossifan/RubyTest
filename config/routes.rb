@@ -9,6 +9,11 @@ Rails.application.routes.draw do
 root to: 'pages#home', as: :home
 get '/about', to:'pages#about', as: :about
 get '/contact', to:'pages#contact', as: :contact
+get "/main", to: "main#index"
+
+
+get "sign_up", to: "registrations#new"
+post "sign_up", to: "registrations#create"
 
 
 
