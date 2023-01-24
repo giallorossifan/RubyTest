@@ -177,9 +177,10 @@ header .social-icon li a
 .navbar-default
 	{
 		background:none;
-		/* border-bottom: 3px solid blue; */
+		border: 3px solid #28A7E9;
 		box-shadow: none;
 		margin: 0 !important;
+
 	}
 .navbar-default .navbar-brand
 	{
@@ -188,6 +189,8 @@ header .social-icon li a
 		height: 70px;
 		line-height: 40px;
 		padding: 12px 0px 0px 12px;
+	  color: #28A7E9;
+
 	}
 .navbar-default .navbar-nav li a
 	{
@@ -195,6 +198,8 @@ header .social-icon li a
 		font-size: 13px;
 		height: 70px;
 		line-height: 40px;
+	  color: #28A7E9;
+
 	}
 
 .navbar-default .navbar-nav > li > a.current {

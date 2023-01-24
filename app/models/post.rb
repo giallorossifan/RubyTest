@@ -11,7 +11,7 @@ class Post < ApplicationRecord
 
   validates :body, presence: true
 
-  #validate the Uniqueness of teh title and body
+  #validate the Uniqueness of the title and body
   validates :title, uniqueness: true
   validates :body, uniqueness: true
 

@@ -15,10 +15,9 @@ ActiveRecord::Schema.define(version: 2023_01_23_223042) do
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.text "body"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
-end
-
-ActiveRecord::Schema.define(version: 2023_01_17_191741) do
 
   create_table "users", force: :cascade do |t|
     t.string "email", null: false
