@@ -9,5 +9,10 @@ class User < ApplicationRecord
  #validate the Uniqueness of email
  validates :email, uniqueness: true
 
+ #validate password and confirmation
+ validates :password, presence: true
+ validates :password_confirmation, presence: true
+
+
 
 end
